@@ -86,7 +86,8 @@ $lang->resource->my->manageContacts = 'manageContacts';
 $lang->resource->my->deleteContacts = 'deleteContacts';
 $lang->resource->my->limited        = 'limited';
 
-$lang->my->methodOrder[0]  = 'index';
+$lang->my->methodOrder[0] = 'limited';
+$lang->my->methodOrder[1]  = 'index';
 $lang->my->methodOrder[5]  = 'todo';
 $lang->my->methodOrder[10] = 'task';
 $lang->my->methodOrder[15] = 'bug';
@@ -101,7 +102,7 @@ $lang->my->methodOrder[55] = 'changePassword';
 $lang->my->methodOrder[60] = 'unbind';
 $lang->my->methodOrder[65] = 'manageContacts';
 $lang->my->methodOrder[75] = 'deleteContacts';
-$lang->my->methodOrder[80] = 'limited';
+
 
 /* Todo. */
 $lang->resource->todo = new stdclass();
